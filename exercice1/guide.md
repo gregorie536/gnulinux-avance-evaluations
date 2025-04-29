@@ -84,7 +84,7 @@ Le fichier crontab ressemblera à ceci :
 > **Remarque** : L'utilisation de tâches cron garantit que le processus est automatique et régulier sans intervention humaine.
 
 ## 4. Génération automatique des rapports
-Un script shell generation_rapport.sh génère un rapport du chiffre d'affaires total par mois, à partir des deux bases de données (production et archive).
+Un script `shell generation_rapport.sh` génère un rapport du chiffre d'affaires total par mois, à partir des deux bases de données (production et archive).
 
 Le rapport est produit au format texte lisible, par exemple :
 
@@ -106,7 +106,7 @@ Cloner ce dépôt :
 git clone https://github.com/gregorie536/gnulinux-avance-evaluations.git
 ```
 
-Se placer dans exercice1/scripts.
+Se placer dans `exercice1/scripts`.
 
 Exécuter le script d'initialisation de la base de données :
 
